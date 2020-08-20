@@ -12,8 +12,9 @@ Generar una aplicación en Ruby que sea capaz de obtener el estado de rastreo de
 información de rastreo con la aplicación ​A Consideraciones
 
 - La aplicación ​B​ debe se capaz de compartir la información de rastreo a la aplicación ​A​ de forma asíncrona.
-- La aplicación ​B​ debe ser capaz de obtener información de rastreo de una gran cantidad de envíos (+200,000 rastreos simultáneos aprox).
-- Las paqueterías catalogan los estados de rastreo en diferentes categorías, por ejemplo para Fedex un paquete entregado puede ser  ̈Delivered ̈ mientras que para UPS puede ser ‘Completed’, sin embargo la aplicación ​A​ está esperando estados de rastreo homologados de la siguiente manera:
+- La aplicación ​B​ debe ser capaz de obtener información de rastreo de una gran cantidad de envíos (+200,000 rastreos simultáneos aproximadamente).
+- Las paqueterías catalogan los estados de rastreo en diferentes categorías, por ejemplo para Fedex un paquete entregado puede ser _Delivered_ mientras que para UPS puede ser _Completed_,
+  sin embargo la aplicación ​A​ está esperando estados de rastreo homologados de la siguiente manera:
 
   ```
   CREATED
@@ -27,13 +28,14 @@ información de rastreo con la aplicación ​A Consideraciones
 - Para este ejercicio sólo implementarás el servicio de rastreo de Fedex pero la aplicación debe estar preparada para agregar nuevas paqueterías sin que represente un gran esfuerzo.
 
 ## Recursos
-
-Puedes usar la gema ​https://github.com/jazminschroeder/fedex​ para rastrear los envíos de Fedex. Las credenciales que puedes usar son las siguientes:
+- Utiliza las guías que vienen en formato JSON dentro de esta carpeta.
+- Puedes usar la gema ​https://github.com/jazminschroeder/fedex​ para rastrear los envíos de Fedex. Las credenciales que puedes usar son las siguientes:
 
   ```
   Fedex test keys
   Key: O21wEWKhdDn2SYyb
-  Password: db0SYxXWWh0bgRSN7Ikg9Vunz Account_number: 510087780
+  Password: db0SYxXWWh0bgRSN7Ikg9Vunz
+  Account_number: 510087780
   Meter: 119009727
   Mode: test
   ```

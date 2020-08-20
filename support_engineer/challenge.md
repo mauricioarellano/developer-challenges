@@ -27,11 +27,13 @@ Es importante mostrar al usuario de manera organizada la información, ya sea en
 - Utiliza las guías que vienen en formato JSON dentro de esta carpeta.
 - Las credenciales que puedes usar son las siguientes:
 
-    ```Fedex test keys```
-    ```Key: O21wEWKhdDn2SYyb```
-    ```Password: db0SYxXWWh0bgRSN7Ikg9Vunz```
-    ```Account_number: 510087780```
-    ```Meter: 119009727```
+    ```
+    Fedex test keys
+    Key: O21wEWKhdDn2SYyb
+    Password: db0SYxXWWh0bgRSN7Ikg9Vunz
+    Account_number: 510087780
+    Meter: 119009727
+    ```
 
 
 ## Puntos a evaluar

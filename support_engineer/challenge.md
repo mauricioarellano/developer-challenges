@@ -20,7 +20,7 @@ Es importante mostrar al usuario de manera organizada la información, ya sea en
 
 - Debes usar RubyOnRails para la solución.
 - Se debe consultar el _tracking_ en la API de FedEx.
-- Debe subirse a un repositorio en GitHub privado.
+- Debe subirse a un repositorio privado en GitHub.
 
 ## Recursos
 - Puedes usar una gema para consumir la API de FedEx y rastrear los envíos: [Gema de FedEx](https://github.com/jazminschroeder/fedex)

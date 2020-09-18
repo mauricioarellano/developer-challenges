@@ -26,6 +26,7 @@ Los shows deben poder marcarse como "favoritos" y persistir ese dato en `localSt
 - Manejo de rutas (`/show/<ID>` carga el detalle del show)
 - Debe ser _Mobile first_
 - Debe subirse a un repositorio en Github
+- Debes montar tu prueba en un servidor en la nube para ver el funcionamiento (hay muchas opciones gratuitas como Heroku, Firebase, GCP, etc)
 - **No** debe usar jQuery
 - **No** debe usar Bootstrap
 

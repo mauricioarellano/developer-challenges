@@ -12,8 +12,7 @@ Generar una aplicación en Ruby que sea capaz de obtener el estado de rastreo de
 información de rastreo con la aplicación ​A Consideraciones
 
 - La aplicación ​B​ debe se capaz de compartir la información de rastreo a la aplicación ​A​ de forma asíncrona.
-- La aplicación ​B​ debe ser capaz de obtener información de rastreo de una gran cantidad de envíos (+200,000 rastreos simultáneos aproximadamente).
-- Las paqueterías catalogan los estados de rastreo en diferentes categorías, por ejemplo para Fedex un paquete entregado puede ser _Delivered_ mientras que para UPS puede ser _Completed_,
+- Las paqueterías catalogan los estados de rastreo en diferentes categorías, por ejemplo, para Fedex un paquete entregado puede ser _Delivered_ mientras que para UPS puede ser _Completed_,
   sin embargo la aplicación ​A​ está esperando estados de rastreo homologados de la siguiente manera:
 
   ```

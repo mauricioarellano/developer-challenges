@@ -51,3 +51,10 @@ Sube tu proyecto a un repositorio de git y compártenos la URL para poder revisa
 ## Opcional/Bonus
 
 - TDD.
+
+### Running the application
+
+The application is pre-bundled for usage with 
+[docker-compose](https://docs.docker.com/compose/gettingstarted/).
+
+To start the application, cd into `backend_engineer` and run `docker-compose up`.
